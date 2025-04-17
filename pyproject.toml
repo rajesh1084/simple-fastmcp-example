@@ -1,7 +1,17 @@
 [project]
 name = "simple-fastmcp-example"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple example of FastMCP server and client"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+authors = [
+    {name = "Rajesh P E", email = "rajesh.p-e@hpe.com"}
+]
+
+dependencies = [
+    "mcp",
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "starlette",
+]
